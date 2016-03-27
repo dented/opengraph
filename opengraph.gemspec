@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{opengraph}
-  s.version = "0.0.5"
+  s.version = "0.0.6"
 
   s.required_rubygems_version = Gem::Requirement.new("~> 2.4") if s.respond_to? :required_rubygems_version=
   s.authors = ["Gram"]
@@ -56,14 +56,14 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<hashie>, ["~> 3.3"])
       s.add_dependency(%q<nokogiri>, ["~> 1.4"])
       s.add_dependency(%q<rest-client>, ["~> 1.6"])
-      s.add_dependency(%q<rspec>, ["~> 3.3"])
-      s.add_dependency(%q<webmock>, ["~> 1.20"])
+      s.add_development_dependency(%q<rspec>, ["~> 3.3"])
+      s.add_development_dependency(%q<webmock>, ["~> 1.20"])
     end
   else
     s.add_dependency(%q<hashie>, ["~> 3.3"])
     s.add_dependency(%q<nokogiri>, ["~> 1.4"])
     s.add_dependency(%q<rest-client>, ["~> 1.6"])
-    s.add_dependency(%q<rspec>, ["~> 3.3"])
-    s.add_dependency(%q<webmock>, ["~> 1.20"])
+    s.add_development_dependency(%q<rspec>, ["~> 3.3"])
+    s.add_development_dependency(%q<webmock>, ["~> 1.20"])
   end
 end
